@@ -1,4 +1,4 @@
-FROM redmine:4.1
+FROM redmine:4.1.1
 
 # AWS Fargate doesn't support persistent file bind mounts, which is why
 # here we're creating an overlay volume that can host all files that will
