@@ -1,3 +1,4 @@
+# Default Redmine container flavor uses WEBrick :(
 FROM redmine:4.1.1-passenger
 
 # AWS Fargate doesn't support persistent file bind mounts, which is why
